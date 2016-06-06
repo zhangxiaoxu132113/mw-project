@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.water.mw</groupId>
+    <artifactId>mw</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>mw-model</module>
+        <module>web-module</module>
+    </modules>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- Depend other major components -->
+        <springframework-version>4.0.2.RELEASE</springframework-version>
+        <spring-security-version>3.1.3.RELEASE</spring-security-version>
+
+        <cxf.version>2.6.0</cxf.version>
+        <apache.cxf.server.version>2.6.0</apache.cxf.server.version>
+
+        <jackson.version>2.5.1</jackson.version>
+
+        <slf4j-version>1.7.5</slf4j-version>
+        <logback-version>1.0.13</logback-version>
+        <spring-data-redis-version>1.4.0.RELEASE</spring-data-redis-version>
+        <jedis-version>2.5.2</jedis-version>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.3.2</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>utf-8</encoding>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

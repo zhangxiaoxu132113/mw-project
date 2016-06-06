@@ -1,0 +1,113 @@
+/*
+* @author ZhangMiaojie
+* @date   2016-06-01
+*/
+*{margin:0;padding:0}
+ul{list-style: none;margin:0;padding:0}
+ul li {list-style: none;margin:0;padding:0}
+a{text-decoration: none;}
+a:hover{text-decoration: none;}
+body{height: 100%;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif,'Microsoft YaHei';color:rgb(41,47,51);margin:0;padding:0;font-size: 13px;
+    overflow: hidden;background:rgb(33,39,39);}
+.mw-login-bg{height: 1273px;width:100%;position:absolute;top:0;left:0;z-index:0;overflow: hidden}
+.mw-login-topbar{position: fixed;top:0;right:0;left:0;z-index: 1000;backface-visibility: hidden;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.0470588);}
+.mw-login-topbar .login-topbar-nav {position: relative;height:46px;width:100%;border-bottom: 1px solid rgba(0, 0, 0, 0.14902);}
+.login-topbar-nav .topbar-nav-inner {position:relative;height: 46px;background:rgb(255,255,255)}
+.topbar-nav-inner .container {position:relative;margin:0 auto;max-width: 1190px;}
+.topbar-nav-inner .container .nav{margin-right: 1em;text-align: left}
+.topbar-nav-inner .container .nav > li {float:left;height: 46px;color:rgb(102, 117, 127)}
+.topbar-nav-inner .container .nav > li >a{color:inherit;display:block;font-size:13px;height:100%;
+    font-weight:500;line-height: 46px;padding:0 14px 0 14px;transition:all 0.15s ease-in-out; }
+.topbar-nav-inner .container .nav > li >a:hover{height:41px;border-bottom:5px solid rgb(27, 149, 224);color:rgb(27, 149, 224);}
+/*.topbar-nav-inner .container .nav .nav-home {color:rgb(27, 149, 224);}*/
+.mr-logo{color:rgb(27, 149, 224);}
+
+.mw-login-wrap {position: relative;width: 100%;min-height:600px;z-index: 2;margin:0 auto;}
+.mw-login-wrap .mw-login-wrap-inner {position:relative;width:838px;height:410px;margin:0 auto}
+.mw-login-wrap .login-wrap-container {position: absolute;top:46px;left:0;right:0;margin-top:5em;}
+.mw-login-wrap .login-wrap-left {width:470px;height:410px;float:left;}
+.mw-login-wrap .login-wrap-right {width:300px;height:410px;float:right;position:relative}
+.mw-login-wrap .login-wrap-left .login-poster {}
+/*margin: 5em 0 0 5em;*/
+.mw-login-wrap .login-wrap-left .login-poster h1{color:rgb(255,255,255);font-size: 38px;line-height: 44px;margin-bottom:30px}
+.mw-login-wrap .login-wrap-left .login-poster p{color:rgb(255,255,255);font-size:21px;line-height: 31px;font-weight: 300;}
+.mw-login-wrap .login-wrap-right .login-frame {border:1px solid #e1e8ed;background:white;box-shadow: none;border-radius: 4px;margin-bottom:11px;width:300px;
+    float: right;}
+.login-wrap-right .login-frame .login-form {margin:12px 12px 6px;font-size: 13px;}
+.login-wrap-right .login-frame .login-form .username-field {height: 30px;margin-bottom:15px;position: relative;top:auto;left: auto;width:auto;color:#292f33}
+.login-frame .login-form .username-field .username-input{border:1px solid #ccd6dd;height:20px;width:266px;box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0 ;
+    display: inline-block;padding:4px;margin:0;outline: 0;background:#FFF;border-radius: 3px;font-size: 13px;line-height: 20px;
+}
+.login-frame .login-form .fixed-table {width:100%;margin-top:6px;border-spacing: 0;border-collapse: collapse}
+.flex-table-secondary button {}
+.flex-table-primary{width:99%;padding-right:5px;float: left}
+.flex-table-primary .login-password{
+    border:1px solid #ccd6dd;height:30px;width: 98%;box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0;line-height: normal;
+    box-sizing: border-box;padding:4px;margin:0;border-radius: 3px;outline: 0;font-size: 13px;
+}
+.login-frame .login-form .remember-forgot {margin-top:4px;font-size:12px;line-height: 18px; }
+.login-frame .login-form .remember {color:#8899a6;line-height: 20px;cursor: pointer}
+.login-frame .login-form .remember input[type=checkbox]{cursor:pointer;}
+.login-frame .login-form .separator{color:#8899a6;font-weight:bold;margin:0 1px 0 2px}
+.login-frame .login-form a.forgot {color:#1b95e0;}
+.login-frame .login-form a.forgot:hover {text-decoration: underline}
+
+.signup-frame{border:1px solid #e1e8ed;border-radius: 4px;width: 300px;float:right;height: 206px;background:#FFF;box-shadow: none}
+.signup-frame h2{
+    border-bottom: 1px solid #e1e8ed;
+    box-shadow: 0 1px 0 #fff;
+    color: #66757f;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    position: relative;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.6);
+    line-height: 22px;
+}
+.signup-frame h2 strong{color:#292f33;}
+.signup-frame .field {display: block; margin: 6px auto; width: 276px;}
+.text-input {border:1px solid #ccd6dd;height:20px;width:266px;box-shadow: inset 0 1px 0 #eee,#fff 0 1px 0 ;
+display: inline-block;padding:4px;margin:0;outline: 0;background:#FFF;border-radius: 3px;font-size: 13px;line-height: 20px;}
+.signup-frame button.signup-btn {
+    margin:1px 12px 0;height:30px;padding-right:12px;padding-left:12px;box-shadow: 0 1px 0 #fff;
+    background-color: #fab81e;
+    background-image: linear-gradient(#ffcc4d,#fab81e);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d, endColorstr=#fab81e, GradientType=0)";
+    border-color: #f1a02a;
+    color: #292f33;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.5);
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -ms-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+.signup-frame button.signup-btn:visited {outline: none}
+.signup-frame button.signup-btn:hover {
+    background-color: #e95f28;
+    background-image: linear-gradient(#ffcc4d,#e95f28);
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ffcc4d, endColorstr=#e95f28, GradientType=0)";
+    border-color: #ec8b11;
+    color: #292f33;
+}
+
+.login-wrap-right input[type=password]:focus{
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05),0 0 8px rgba(82,168,236,0.6);
+    border: 1px solid #ccd6dd;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+.login-wrap-right input[type=text]:focus{
+    box-shadow: inset 0 1px 3px rgba(0,0,0,0.05),0 0 8px rgba(82,168,236,0.6);
+    border: 1px solid #ccd6dd;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;
+}
+
