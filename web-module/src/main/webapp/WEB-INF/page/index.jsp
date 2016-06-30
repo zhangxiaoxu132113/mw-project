@@ -141,7 +141,71 @@
                             </div>
                             <!-- 右边的内容 -->
                             <div class="Grid-cell u-size3of4">
+                                <div class="Grid Grid-withGutter">
+                                    <div class="Grid-cell">
+                                        <div class="Grid-cell u-lg-size2of3">
+                                            <!-- profile Heading -->
+                                            <div class="profileHeading">
+                                                <div class="profileHeading-spacer"></div>
+                                                <div class="profileHeading-content">
+                                                    <h2 id="content-main-heading" class="profileheading-title u-hiddenVisually">最新动态</h2>
+                                                    <ul class="profileheading-toggle">
+                                                        <li class="ProfileHeading-toggleItem is-Active">最新动态</li>
+                                                        <li class="ProfileHeading-toggleItem u-textUserColor"><a>心情</a></li>
+                                                        <li class="ProfileHeading-toggleItem u-textUserColor"><a>日志</a></li>
+                                                    </ul>
 
+                                                </div>
+                                            <!-- profile Heading end -->
+                                            <!-- timeline  -->
+                                            <div id="timeline" class="ProfileTimeline">
+                                                <div class="stream-container">
+                                                    <div class="stream">
+                                                        <ol class="stream-items" id="stream-items-id">
+                                                            <li class="stream-item before-append">
+                                                                <div class="tweet">
+                                                                    <div class="content">
+                                                                        <div class="stream-item-header">
+                                                                            <a>MrWater @136218949Mr.</a>
+                                                                            <small><a><span>5月6日</span></a></small>
+                                                                        </div>
+                                                                        <div>
+                                                                            <p class="Tweet-TextSize--26">
+                                                                                这是我的第一篇推文
+                                                                            </p>
+
+                                                                        </div>
+                                                                        <div class="AdaptiveMedia">
+                                                                            <div>
+                                                                                <div class="AdaptiveMedia-singlePhoto">
+                                                                                    <div class="AdaptiveMedia-photoContainer">
+                                                                                        <img src="/asset/content/test-content.jpg" style="width: 100%;top:-0px">
+
+                                                                                    </div>
+
+                                                                                </div>
+
+                                                                            </div>
+
+                                                                        </div>
+
+                                                                    </div>
+
+                                                                </div>
+                                                            </li>
+
+                                                        </ol>
+                                                    </div>
+
+                                                </div>
+
+                                            </div>
+                                            <!-- timeline end -->
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
