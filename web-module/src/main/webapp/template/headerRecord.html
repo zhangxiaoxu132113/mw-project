@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="../asset/css/font/iconfont/iconfont.css">
+    <link rel="stylesheet" type="text/css" href="../asset/css/mw-moon.css">
+    <link rel="stylesheet" type="text/css" href="../asset/css/mrwater.css">
+</head>
+<body>
+<!-- slider bar  -->
+<div class="slider-bar-left">
+    <div class="slider-bar-inner">
+        <div>
+            <!-- operator slider  -->
+            <div></div>
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+
+</div>
+<div style="display: none" class="slider-bar-right">
+
+</div>
+<!-- page container -->
+<div id="doc">
+    <!-- header content -->
+    <header class="header">
+        <div class="header-inner">
+            <!-- logo -->
+            <h1><a>MrWater<sup>mood</sup></a></h1>
+            <!-- tools bar -->
+            <div class="main-nav">
+                <div class="nav-inner">
+                    <div class="nav-controler-wrap">
+                        <ul class="nav-controler-wrap-items">
+                            <li class="prev"><a href="#" title="上一页"><i class="iconfont">&#xe650;</i></a></li>
+                            <li class="shuffle"><a href="#" title="随机"><i class="iconfont">&#xe69b;</i></a></li>
+                            <li class="next"><a href="#" title="下一页"><i class="iconfont">&#xe651;</i></a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-feature-wrap">
+                        <ul>
+                            <li><a class="directory-btn" href="#" title=""><i class="iconfont">&#xe790;</i></a></li>
+                            <li><a class="write-btn" href="#" title=""><i class="iconfont">&#xe6b0;</i></a></li>
+                            <li><a class="message-btn" href="#" title=""><i class="iconfont">&#xe6ad;</i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- tools bar end -->
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main content -->
+    <div class="page-container">
+        <div class="app-content">
+            <div class="Grid Grid-withGutter">
+                <div class="Grid-cell u-lg-size3of5">
+                    <div class="content-detail">
+                        <!--<img src="../asset/img/login/mw-login-bg01.jpg" class="mr-img-responsive">-->
+                        <h2>
+                            <span class=""><span>No.</span></span>65
+                        </h2>
+                        <p class="face-text">
+                            Hello!My name is Zhang Miaojie.I like drawing and ...let me think ! oh No,I don't kown what i like.
+                            <!--With Herb Lubalin as editor and designer, ITC began publishing “U&lc” in 1973 to market the company’s typefaces.-->
+                        </p>
+                        <div class="meta">
+                            <ul>
+                                <li>
+                                    <span class="meta-icon"><i class="iconfont">&#xe62a;</i></span><span>陆丰市甲子镇元高管区</span>
+                                </li>
+                                <li>
+                                    <span class="meta-icon"><i class="iconfont">&#xe74f;</i></span><span style="font-family: sans-serif;">2016-06-30 : 17:10:10</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="Grid-cell u-lg-size2of5">
+                    <div class="media-content">
+                        <img src="../asset/img/commons/user_image.jpg" class="mr-img-responsive">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- 内容主体 end -->
+    <footer>
+        <div class="footer-inner">
+            <div class="footer-left">
+                <p>©2016 Mr Water ™ Images are ™© of their respective owners.</p>
+            </div>
+            <div class="footer-right">
+                <p>know more</p>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </footer>
+</div>
+<script src="../asset/js/jquery.js"></script>
+<script>
+    var sliderBarW = 385;
+    var sliderDurationT = 800;
+    var zeroW = 0;
+    $('.directory-btn').bind('click',function(){
+        if ($('.slider-bar-left').is(":hidden")) {
+            //左边的slider bar显示出来
+            $('.slider-bar-left').css('display','block');
+            $('.slider-bar-left').animate({'width':sliderBarW+'px'},sliderDurationT);
+            $('#doc').animate({'left':sliderBarW+'px'},sliderDurationT);
+        } else {
+            //左边的slider bar隐藏掉
+            $('.slider-bar-left').animate({'width':zeroW+'px'},sliderDurationT);
+            $('#doc').animate({'left':zeroW+'px'},sliderDurationT,function(){
+                $('.slider-bar-left').css('display','none');
+            });
+        }
+    });
+</script>
+</body>
+</html>
+<!--
+    如何实现鼠标移动到指定位置就显示或则隐藏
+    function OverOut(event) {
+        $("#DivToggle").toggle(600);
+    }
+-->

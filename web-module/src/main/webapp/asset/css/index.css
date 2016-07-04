@@ -67,18 +67,6 @@ body{font-size: 13px;font-family: "Helvetica Neue",Helvetica,Arial,sans-serif}
     z-index: 1;
 }
 .profile-canopy-header .AppContainer {position: relative;height: 100%}
-.Grid {display: block;text-align: left;margin:0;padding:0;font-size: 0}
-.Grid .Grid-withGutter{margin:0 -5px}
-.Grid-cell {
-    box-sizing: border-box;
-    display: inline-block;
-    font-size: 14px;
-    margin: 0;
-    padding: 0;
-    text-align: left;
-    vertical-align: top;
-    width: 100%;
-}
 .profile-canopy-card {
     box-sizing: border-box;
     height: 60px;

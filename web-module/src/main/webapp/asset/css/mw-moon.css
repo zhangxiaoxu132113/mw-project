@@ -1,0 +1,109 @@
+*{font-family: Sana;margin:0;padding:0}
+ul,ol{list-style-type: none}
+a{text-decoration: none;color: black}
+.header, .header-inner {display: block;}
+/*.header .header-inner {position: relative}*/
+@media only screen and (min-width:768px) {
+
+    .header .header-inner h1 {padding-bottom: 57px}
+}
+#doc{position: relative}
+.header .header-inner h1 {
+    font-family: "Playfair Display",Georgia,serif;
+    font-weight: 800;
+    font-size: 2.2em;line-height: 2.65em;
+    max-width: 960px;margin:0 auto;
+    padding: 20px 2.75% 0;
+}
+.header .header-inner h1 a {font-family: "Playfair Display",Georgia,serif;}
+.header .header-inner h1 sup {
+    font-size: .45em;
+    display: inline;
+    line-height: 1;
+    position: relative;
+    top: -11px;
+    left: 1px;
+    font-weight: 400;
+}
+
+.main-nav {position: relative; background: #fff;width: 100%;margin-bottom: 22px;height: 50px;}
+.main-nav .nav-inner{position: relative;bottom: 0;left: 0;}
+.nav-controler-wrap{position: relative;min-height: 65px}
+.nav-controler-wrap-items{width: 175px;margin:0 auto;position: relative}
+.main-nav .nav-inner .iconfont {font-size: 3em}
+.nav-controler-wrap-items li {float: left;width: 45px;text-align: center}
+.main-nav .nav-inner  li a{color: rgb(37,37,37)}
+.nav-controler-wrap-items li a:hover{color:#3b88c3}
+.nav-controler-wrap-items .shuffle {margin:0 22px 0 17px;}
+.nav-feature-wrap ul li{float: left}
+.nav-feature-wrap .directory-btn {position: absolute;top: 0;left: 25px}
+.nav-feature-wrap .write-btn {position: absolute;top: 0;right: 15%}
+.nav-feature-wrap .message-btn {position: absolute;top: 0;right: 25px}
+
+/*main content*/
+.page-container {position: relative;overflow: hidden}
+.page-container .app-content {max-width: 960px;margin:0 auto;padding:0 0.75%}
+.app-content .content-detail h2>span{
+    margin: 48px 5px 0 0;
+    position: relative;
+    border-radius: 45px;
+    display: inline-block;
+    top: -40px;
+    height: 54px;
+    width: 54px;
+    background: #3b88c3;
+}
+.app-content .content-detail h2>span>span{
+    position: absolute;
+    top: 17px;
+    left: 14px;
+    line-height: 1;
+    font-size: 19px;
+    font-weight: 100;
+    color: #fff;
+    font-family: "Crimson Text",Georgia,serif;
+}
+.app-content .content-detail h2{
+    font-size: 9.375em;
+    font-family: "Playfair Display",Georgia,serif;
+    font-weight: 800;
+    margin-top: -15px;
+    color: #252525;
+    line-height: 1.2em;
+}
+.app-content .content-detail .face-text{
+    font-size: 1.875em;
+    color: #363636;
+    margin: 10px 0;
+    overflow: hidden;
+    line-height: 1.15em;
+    padding-right: 2em;
+}
+.app-content .content-detail .meta {
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    font-size: .857em;
+    color: #898989;
+    overflow: hidden;
+    padding: 37px 0}
+.app-content .content-detail .meta .meta-icon{margin-right: 1.8em}
+.app-content .content-detail .meta ul li {margin-bottom: 1em}
+
+/*slider bar*/
+.slider-bar {position: relative}
+/*slider bar left*/
+.slider-bar-left {
+    position: absolute;display: none;
+    height: 100%;top:0;
+    /*width: 385px;默认让人隐藏*/
+    background: #252525;color:rgb(96,96,96);
+    /*left: -200px;*/
+}
+.slider-bar-left .slider-bar-inner {
+    background: red;
+}
+
+/* footer */
+footer{position: fixed;bottom: 0;left: 0;width: 100%;padding:15px 20px;color:#898989;background: #FFFFFF}
+footer .footer-inner {position: relative;}
+footer .footer-inner .footer-left{position:absolute;left: 1em;bottom: 0.5em}
+footer .footer-inner .footer-right{position:absolute;right: 3em;bottom: 0.5em}
