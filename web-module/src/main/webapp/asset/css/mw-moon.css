@@ -39,6 +39,7 @@ a{text-decoration: none;color: black}
 .nav-feature-wrap .directory-btn {position: absolute;top: 0;left: 25px}
 .nav-feature-wrap .write-btn {position: absolute;top: 0;right: 15%}
 .nav-feature-wrap .message-btn {position: absolute;top: 0;right: 25px}
+a.message-btn:hover, a.write-btn:hover, a.directory-btn:hover {color:#3b88c3!important; }
 
 /*main content*/
 .page-container {position: relative;overflow: hidden}
@@ -96,10 +97,12 @@ a{text-decoration: none;color: black}
     height: 100%;top:0;
     /*width: 385px;默认让人隐藏*/
     background: #252525;color:rgb(96,96,96);
-    /*left: -200px;*/
 }
-.slider-bar-left .slider-bar-inner {
-    background: red;
+.slider-bar-right {
+    position: absolute;display: none;
+    height: 100%; top:0;right: 0;
+    background: #252525;color:rgb(96,96,96);
+    /*width: 385px;默认让人隐藏*/
 }
 
 /* footer */
@@ -107,3 +110,31 @@ footer{position: fixed;bottom: 0;left: 0;width: 100%;padding:15px 20px;color:#89
 footer .footer-inner {position: relative;}
 footer .footer-inner .footer-left{position:absolute;left: 1em;bottom: 0.5em}
 footer .footer-inner .footer-right{position:absolute;right: 3em;bottom: 0.5em}
+
+/**/
+.mw-popup {z-index: 10001;background: #fff;position:fixed;width: 600px;top:50%;left: 50%;margin-top: -200px;margin-left: -300px;border-radius: 5px;}
+.mw-popup-inner{position: relative;padding:1em;}
+.mw-popup-inner h4 {padding:0 0 0.5em;font-size: 18px;color:#1b95e0;}
+.moon-content {height: 120px; border: 1px solid rgba(0,0,0,.2);overflow: auto;padding:0.5em;margin-bottom: 0.5em;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);border-radius: 3px}
+.moon-toolbar {padding-left: 0.5em; box-sizing:border-box; height:38px; line-height:38px;}
+.moon-toolbar a {display: block;float: left;margin-right: 1em;color:#66757f;
+    -webkit-transition: all 0.15s linear;
+    -moz-transition: all 0.15s linear;
+    -ms-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear;}
+.moon-toolbar a:visited {color:#66757f;}
+.moon-toolbar a:hover {color: #1b95e0!important;cursor: pointer}
+.moon-toolbar a:active {color:#66757f;}
+.moon-toolbar a i{font-size:28px;}
+.closeBtn{position: absolute;right: 1em;top: 1em;cursor: pointer}
+.sendContBtn {display: block; background: rgb(62,167,233); padding: 10px 15px; color: #FFF!important; border-radius: 4px; font-size: 16px;
+    float: right!important;margin-right: 0!important;line-height: 1; }
+a.sendContBtn:hover {color:#FFF!important; background-color: #1da1f2;
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.15)); }
+.sendContBtn i {margin-right: 0.25em;font-size: 16px!important;}
+.limitNumber {float: right;margin-right: 0.5em; font-size: 16px; font-weight: 500; color: rgba(102,117,127,0.8); font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
+
+
+

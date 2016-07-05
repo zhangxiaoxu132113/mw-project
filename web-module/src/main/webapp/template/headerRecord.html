@@ -6,6 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../asset/css/font/iconfont/iconfont.css">
     <link rel="stylesheet" type="text/css" href="../asset/css/mw-moon.css">
     <link rel="stylesheet" type="text/css" href="../asset/css/mrwater.css">
+    <link rel="stylesheet" type="text/css" href="../plugs/sweet-alert/css/sweet-alert.css">
 </head>
 <body>
 <!-- slider bar  -->
@@ -24,7 +25,10 @@
 
 
 </div>
-<div style="display: none" class="slider-bar-right">
+<div class="slider-bar-right">
+    <div class="slider-bar-inner">
+
+    </div>
 
 </div>
 <!-- page container -->
@@ -69,8 +73,9 @@
                             <span class=""><span>No.</span></span>65
                         </h2>
                         <p class="face-text">
-                            Hello!My name is Zhang Miaojie.I like drawing and ...let me think ! oh No,I don't kown what i like.
-                            <!--With Herb Lubalin as editor and designer, ITC began publishing “U&lc” in 1973 to market the company’s typefaces.-->
+                            <!--Hello!My name is Zhang Miaojie.I like drawing and ...let me think ! oh No,I don't kown what i like.-->
+                            With Herb Lubalin as editor and designer, ITC began publishing “U&lc” in 1973 to market the company’s typefaces.
+
                         </p>
                         <div class="meta">
                             <ul>
@@ -89,6 +94,7 @@
                 <div class="Grid-cell u-lg-size2of5">
                     <div class="media-content">
                         <img src="../asset/img/commons/user_image.jpg" class="mr-img-responsive">
+                        <!--<img src="../asset/tmp/liliqun.jpg" class="mr-img-responsive">-->
                     </div>
                 </div>
             </div>
@@ -108,32 +114,29 @@
         </div>
         <div style="clear: both"></div>
     </footer>
+    <!-- 发表个人心情的模钛窗口-->
+    <div class="mw-popup" style="display: none">
+        <div class="mw-popup-inner" >
+            <a class="closeBtn"><i class="iconfont" style="font-size: 14px">&#xe659;</i></a>
+            <h4>心情物语</h4>
+            <div class="moon-content" style="outline: none" contenteditable="true" ></div>
+            <div class="moon-toolbar">
+                <a><i class="iconfont">&#xe780;</i></a>
+                <a><i class="iconfont">&#xe768;</i></a>
+                <a><i class="iconfont" style="font-size: 25px">&#xe624;</i></a>
+
+                <a class="sendContBtn"><i class="iconfont">&#xe6b0;</i>发送</a>
+                <span class="limitNumber">135</span>
+                <div style="clear: both"></div>
+
+            </div>
+        </div>
+    </div>
 </div>
+
 <script src="../asset/js/jquery.js"></script>
-<script>
-    var sliderBarW = 385;
-    var sliderDurationT = 800;
-    var zeroW = 0;
-    $('.directory-btn').bind('click',function(){
-        if ($('.slider-bar-left').is(":hidden")) {
-            //左边的slider bar显示出来
-            $('.slider-bar-left').css('display','block');
-            $('.slider-bar-left').animate({'width':sliderBarW+'px'},sliderDurationT);
-            $('#doc').animate({'left':sliderBarW+'px'},sliderDurationT);
-        } else {
-            //左边的slider bar隐藏掉
-            $('.slider-bar-left').animate({'width':zeroW+'px'},sliderDurationT);
-            $('#doc').animate({'left':zeroW+'px'},sliderDurationT,function(){
-                $('.slider-bar-left').css('display','none');
-            });
-        }
-    });
-</script>
+<script src="../asset/js/mrwater.js"></script>
+<script src="../asset/js/mw/mw-moon.js"></script>
+<script src="../plugs/sweet-alert/js/sweet-alert.min.js"></script>
 </body>
 </html>
-<!--
-    如何实现鼠标移动到指定位置就显示或则隐藏
-    function OverOut(event) {
-        $("#DivToggle").toggle(600);
-    }
--->
