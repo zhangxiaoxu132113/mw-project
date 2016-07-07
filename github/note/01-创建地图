@@ -1,0 +1,5 @@
+    function loadScript() {
+       var script = document.createElement("script");
+       script.src = "http://api.map.baidu.com/api?v=1.4&callback=initialize";
+       document.body.appendChild(script);
+    }

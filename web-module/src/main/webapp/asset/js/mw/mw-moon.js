@@ -63,4 +63,58 @@ $(window).ready(function(){
         },250);
     });
 
+    /*添加图片*/
+    $('.addPhoto').bind('click',function(){
+        if ($('.add-content').is(':hidden')) {
+            if ($('.added-img-list').find('img').length>0) {
+                $('.add-content').slideToggle('fast',function() {
+                    controlBtnStatus('.add-content','.addPhoto');
+                });
+            } else {
+                $('.uploadFiles').click();
+            }
+        } else {
+            $('.add-content').slideToggle('fast',function() {
+                controlBtnStatus('.add-content','.addPhoto');
+            });
+        }
+
+    });
+    $('.addImageBtn').bind('click', function () {
+        $('.uploadFiles').click();
+    });
+    /*file input表单的事件*/
+    $('.uploadFiles').bind('change',function(){
+        //这里上传图片,假设上传成功了的操作
+        var imgSrc = "../asset/img/commons/user_image.jpg";
+        $('.addImageBtn').before("<span class='img-panel-item' style='position: relative'><span class='img-hover-bg'><i class='iconfont'>&#xe659;</i></span><img src='"+imgSrc+"' /></span>") ;
+        if ($('.add-content').is(':hidden')) {
+            $('.add-content').slideToggle('fast',function(){
+                controlBtnStatus('.add-content','.addPhoto');
+
+            });
+        }
+
+    });
+
+    /*图片获取焦点 \ 失去焦点*/
+    // 注: 使用代理的方式可以使得jquery动态创建出来的元素可以绑定事件
+    $(document).delegate('.img-panel-item', 'mouseover', function() {
+        $(this).find('span:first-child').each(function(){
+            $(this).css('display','block');
+        });
+    });
+    $(document).delegate('.img-panel-item', 'mouseout', function() {
+        $(this).find('span:first-child').each(function(){
+            $(this).css('display','none');
+        });
+    });
+    /*改变按钮处于linked or active 的颜色*/
+    var controlBtnStatus = function(flagObj,targetObj) {
+        if ($(flagObj).is(':hidden')) {
+            $(targetObj).css('color','#66757f');
+        } else {
+            $(targetObj).css('color','#1b95e0');
+        }
+    }
 });
