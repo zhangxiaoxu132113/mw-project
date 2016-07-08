@@ -142,13 +142,13 @@
                 <form action="/upload/imageList" id="uploadMultiFiles" method="post" enctype="multipart/form-data">
                     <input type="file" name="file" class="uploadFiles mw-hidden">
                 </form>
+                <iframe name="hidden_frame" id="hidden_frame" class="hidden_frame"></iframe>
                 <a class="addLocaltion"><i class="iconfont">&#xe768;</i></a>
                 <a class="addMusic"><i class="iconfont" style="font-size: 25px">&#xe624;</i></a>
 
                 <a class="sendContBtn"><i class="iconfont">&#xe6b0;</i>发送</a>
                 <span class="limitNumber">135</span>
                 <div style="clear: both"></div>
-
             </div>
             <div class="add-content">
                 <!--<ul>-->
@@ -157,12 +157,12 @@
                 <!--</ul>-->
                 <em></em>
                 <div class="added-img-list">
-                    <span  class="img-panel-item" style="position: relative">
-                        <span class="img-hover-bg">
-                            <i class="iconfont">&#xe659;</i>
-                        </span>
-                        <img src="/asset/img/commons/user_image.jpg" />
-                    </span>
+                    <%--<span  class="img-panel-item" style="position: relative">--%>
+                        <%--<span class="img-hover-bg">--%>
+                            <%--<i class="iconfont">&#xe659;</i>--%>
+                        <%--</span>--%>
+                        <%--<img src="/asset/img/commons/user_image.jpg" />--%>
+                    <%--</span>--%>
                     <span class="addImageBtn">
                       <i class="iconfont">&#xe6ea;</i>
                     </span>
@@ -177,6 +177,7 @@
 
 </div>
 <script src="/asset/js/jquery.js"></script>
+<script src="/plugs/mrwater/mw-upload.js"></script>
 <script src="/asset/js/mrwater.js"></script>
 <script src="/asset/js/mw/mw-moon.js"></script>
 <script src="/plugs/sweet-alert/js/sweet-alert.min.js"></script>

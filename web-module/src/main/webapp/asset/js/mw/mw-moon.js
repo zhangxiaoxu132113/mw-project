@@ -85,18 +85,33 @@ $(window).ready(function(){
     });
     /*file input表单的事件*/
     $('.uploadFiles').bind('change',function(){
-        $('#uploadMultiFiles').submit();
-
-        //这里上传图片,假设上传成功了的操作
-        var imgSrc = "../asset/img/commons/user_image.jpg";
-        $('.addImageBtn').before("<span class='img-panel-item' style='position: relative'><span class='img-hover-bg'><i class='iconfont'>&#xe659;</i></span><img src='"+imgSrc+"' /></span>") ;
+        //显示隐藏的图片列表 添加节点
+        var imgSrc = "/asset/img/commons/loading/loading_8.gif";
+        $('.addImageBtn').before("<span class='img-panel-item' style='position: relative'>" +
+            "<span class='img-hover-bg'><i class='iconfont'>&#xe659;</i></span>" +
+            "<img src='/asset/img/commons/loading/loading_8.gif' />" +
+            "</span>");
         if ($('.add-content').is(':hidden')) {
             $('.add-content').slideToggle('fast',function(){
                 controlBtnStatus('.add-content','.addPhoto');
-
             });
         }
 
+        //提交表单,获取表单返回过来的数据,并设置图片的src属性值
+        setJsonBySubmit($('#uploadMultiFiles'),"hidden_frame",function(obj){
+            var imgSrc = obj.imgSrc;
+            var len = $('.img-panel-item').length;
+            $('.img-panel-item').each(function(index,element){
+                if (index == (len-1)){
+                    //获取得到最后一个元素
+                    console.log('one time');
+                    $(element).find('img').each(function(){
+                        $(this).attr('src',imgSrc);
+                    })
+                }
+            });
+            console.log("execute here");
+        });
     });
 
     /*图片获取焦点 \ 失去焦点*/
@@ -123,7 +138,5 @@ $(window).ready(function(){
             $(targetObj).css('color','#1b95e0');
         }
     }
-
-
 
 });
