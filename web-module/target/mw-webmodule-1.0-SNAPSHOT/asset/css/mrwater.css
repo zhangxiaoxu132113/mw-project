@@ -1,7 +1,7 @@
 .mr-logo{color:rgb(27, 149, 224);}
 /*compontent*/
 /*compontent img*/
-.mr-img-responsive {display: block;max-width: 100%;height:auto}
+.mr-img-responsive {display: block;width: 100%;height:auto}
 /*compontent button*/
 .mr-btn {
     background-color: #ccd6dd;
@@ -53,5 +53,5 @@
 }
 
 .u-textUserColor{color: #1B95E0 !important;}
-
+.mw-hidden {display: none}
 /*自己封装的样式*/

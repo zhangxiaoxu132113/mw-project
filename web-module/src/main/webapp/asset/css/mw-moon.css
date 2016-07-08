@@ -139,7 +139,7 @@ a.sendContBtn:hover {color:#FFF!important; background-color: #1da1f2;
 .add-content {margin-top: 0.25em; background: rgba(153, 153, 153, 0.12); height: auto; padding:0.5em ; display: none; position: relative}
 .add-content ul li {display: inline-block;float: left}
 .add-content .added-img-list>span {display: inline-block;width: 15%;height: 80px;cursor: pointer}
-.add-content .added-img-list span:not(:first-child){margin-left: 2%}
+.add-content .added-img-list span:not(:first-child){margin-left: 1.85%}
 .add-content .added-img-list span img {height: 100%;width: 100%}
 .add-content em {
     height: 0;

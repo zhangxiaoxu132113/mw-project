@@ -85,6 +85,8 @@ $(window).ready(function(){
     });
     /*file input表单的事件*/
     $('.uploadFiles').bind('change',function(){
+        $('#uploadMultiFiles').submit();
+
         //这里上传图片,假设上传成功了的操作
         var imgSrc = "../asset/img/commons/user_image.jpg";
         $('.addImageBtn').before("<span class='img-panel-item' style='position: relative'><span class='img-hover-bg'><i class='iconfont'>&#xe659;</i></span><img src='"+imgSrc+"' /></span>") ;
@@ -109,6 +111,10 @@ $(window).ready(function(){
             $(this).css('display','none');
         });
     });
+    /*移除上传的图片*/
+    $(document).delegate('.img-hover-bg','click',function() {
+        $(this).parent('.img-panel-item').remove();
+    });
     /*改变按钮处于linked or active 的颜色*/
     var controlBtnStatus = function(flagObj,targetObj) {
         if ($(flagObj).is(':hidden')) {
@@ -117,4 +123,7 @@ $(window).ready(function(){
             $(targetObj).css('color','#1b95e0');
         }
     }
+
+
+
 });

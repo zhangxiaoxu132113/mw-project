@@ -131,7 +131,9 @@
             <div class="moon-toolbar">
                 <a class="addPhoto"><i class="iconfont">&#xe780;</i></a>
                 <!-- 隐藏的文件上传的input表单 -->
-                <input type="file" class="uploadFiles mw-hidden">
+                <form action="/upload/imageList" id="uploadMultiFiles" method="post" enctype="multipart/form-data">
+                    <input type="file" class="uploadFiles mw-hidden">
+                </form>
                 <a class="addLocaltion"><i class="iconfont">&#xe768;</i></a>
                 <a class="addMusic"><i class="iconfont" style="font-size: 25px">&#xe624;</i></a>
 
@@ -153,7 +155,6 @@
                         </span>
                         <img src="../asset/img/commons/user_image.jpg" />
                     </span>
-                    <!--<span><img src="../asset/content/bg02.jpg" /></span>-->
                     <span class="addImageBtn">
                       <i class="iconfont">&#xe6ea;</i>
                     </span>
