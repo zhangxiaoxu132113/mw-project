@@ -1,5 +1,6 @@
 /*.logo a sup{font-family: Yellowtail!important;font-size: 38px}*/
 *{font-family: Sana;margin:0;padding:0}
+body{overflow-x: hidden}
 ul,ol{list-style-type: none}
 a{text-decoration: none;color: black}
 .header, .header-inner {display: block;}
@@ -94,8 +95,8 @@ a.message-btn:hover, a.write-btn:hover, a.directory-btn:hover {color:#3b88c3!imp
 .slider-bar {position: relative}
 /*slider bar left*/
 .slider-bar-left {
-    position: absolute;display: none;
-    height: 100%;top:0;
+    position: absolute;display: none;left: -385px;
+    height: 100%;top:0;bottom:0;overflow-y: auto;
     /*width: 385px;默认让人隐藏*/
     background: #252525;color:rgb(96,96,96);
 }
@@ -174,4 +175,65 @@ a.sendContBtn:hover {color:#FFF!important; background-color: #1da1f2;
     margin-top: -11px;
     margin-left: -11px;
     font-weight: 500;
+}
+
+/*左边侧栏的样式*/
+.slider-bar-left .slider-bar-inner .taglist {padding-top:50px;  }
+.slider-bar-left .slider-bar-inner .taglist li {width: 100%; }
+.slider-bar-left .slider-bar-inner .taglist li a{
+    box-sizing: border-box;
+    position: relative;
+    height: 100px;
+    padding: 15px;
+    display: block;
+    overflow: hidden;
+    color: #676767;
+    -webkit-transition: color .2s ease-in-out;
+    -ms-transition: color .2s ease-in-out;
+    transition: color .2s ease-in-out;
+}
+.slider-bar-left .slider-bar-inner .taglist li {border-bottom:solid 1px #2e2e2e}
+.slider-bar-left .slider-bar-inner .taglist li.active a {
+    background:#1b95e0;color:#FFF;
+}
+.slider-bar-left .slider-bar-inner .taglist li.active a:after {
+    content: '';
+    width: 0;height: 0;
+    position: absolute;top:0;right: 0;
+    border-right: solid 25px #252525;
+    border-top:solid 50px #1b95e0;
+    border-bottom:solid 50px #1b95e0;
+}
+.slider-bar-left .slider-bar-inner .taglist li a:hover{color:#FFF;cursor: pointer}
+.slider-bar-left .slider-bar-inner .taglist li a span.number{
+    font-family: "Playfair Display",Georgia,serif;
+    font-weight: 800;
+    font-size: 4.2em;
+    width: 120px;
+    position: relative;
+    top: -8px;
+    float: left;
+}
+.slider-bar-left .slider-bar-inner .taglist li a span.title{
+    height: 60px;
+    vertical-align: middle;
+    line-height: 1.125em;
+    display: table-cell;
+    width: 210px;
+    padding: 5px 7px 5px 0;
+    font-size: 1.125em;
+    /*word-break: break-all;*/
+}
+.tag-content{overflow-y: auto;padding-right: 2px;}
+.slider-bar-left .slider-bar-inner .tagheader{
+    padding: 15px; box-sizing: border-box;
+    position: absolute;
+    top: 0; z-index: 1;
+    width: 100%; background: #252525;
+}
+.slider-bar-left .slider-bar-inner .tagheader a {
+    color:#FFF;
+    letter-spacing: 1px;
+    font-size: 18px;
+    cursor: pointer ;
 }

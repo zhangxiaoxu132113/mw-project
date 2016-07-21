@@ -14,6 +14,9 @@
     <link rel="stylesheet" type="text/css" href="/asset/css/font/iconfont/iconfont.css">
     <link rel="stylesheet" type="text/css" href="/asset/css/font/englishFont/mw-font.css">
     <link rel="stylesheet" type="text/css" href="/asset/css/mw-moon.css">
+    <%--<link rel="stylesheet" type="text/css" href="/asset/css/imageFilter/normalize.css">--%>
+    <link rel="stylesheet" type="text/css" href="/asset/css/imageFilter/demo-site.min.css">
+
     <link rel="stylesheet" type="text/css" href="/asset/css/mrwater.css">
     <link rel="stylesheet" type="text/css" href="/plugs/sweet-alert/css/sweet-alert.css">
 </head>
@@ -23,12 +26,22 @@
     <div class="slider-bar-inner">
         <div>
             <!-- operator slider  -->
-            <div></div>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="tagheader"><a>全部(140)<i class="iconfont">&#xe6b9;</i></a></div>
+            <div class="tag-content">
+                <ul class="taglist">
+                    <li class="active"><a><span class="number">57</span> <span class="title">周六去世界之窗</span></a></li>
+                    <li><a><span class="number">97</span> <span class="title">东湖动物苑</span></a></li>
+                    <li><a><span class="number">127</span> <span class="title">求水山公园刺激的过山车</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                    <li><a><span class="number">157</span> <span class="title">呆在宿舍的几天</span></a></li>
+                </ul>
+            </div>
         </div>
     </div>
 
