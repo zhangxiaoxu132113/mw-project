@@ -6,6 +6,7 @@ the name of the site temporarily MrWater. Great!Front end are going to use angul
 background using the spring MVC to build development framework.
 Now, has realized the landing interface twitter (copy), but that's too bad, not a single website logo of their own.
 ![image](https://github.com/zhangxiaoxu132113/mrwater/blob/master/github/test01.png)
-![image](https://github.com/zhangxiaoxu132113/mrwater/blob/master/github/image01.png)
+心情物语
+![image](https://github.com/zhangxiaoxu132113/mw-project/blob/master/github/image01.png)
 
 Welcome to participate in！
