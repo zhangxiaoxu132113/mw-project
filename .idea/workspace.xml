@@ -2,134 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0df999-bffb-4369-8145-560697430646" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw-model/src/main/resources/config.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw-model/src/main/resources/orm/mybatis-config.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\controller\TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\controller\UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\controller\ViewDispatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\IBaseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\IUserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\impl\BaseDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\impl\UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\service\IUserService.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\service\impl\UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\lang\MWLogTool.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\lang\MWStringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\web\MWLoginUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\web\MWSessionUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\spring\apring-beans-services.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\spring\spring-beans-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\spring\spring-beans-dao.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\mw-model-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT.war" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\config\applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\config\spring-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-codec-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-io-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-lang-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-lang3-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-logging-1.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-pool-1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\httpclient-4.3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\httpcore-4.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-annotations-2.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-core-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-core-asl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-databind-2.5.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-mapper-asl-1.9.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\javax.servlet-api-4.0.0-b01.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\mw-model-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\mysql-connector-java-5.1.38.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\org.apache.commons.fileupload-1.2.2.LIFERAY-PATCHED-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\slf4j-api-1.7.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-aop-4.0.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-beans-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-context-4.0.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-context-support-4.0.9.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-core-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-data-redis-1.5.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-expression-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-jdbc-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-ldap-core-1.3.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-oxm-3.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-tx-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-web-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-webmvc-4.0.5.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\tomcat-jdbc-7.0.35.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\tomcat-juli-7.0.35.jar" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\log4j.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\page\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\page\login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg02.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg03.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg04.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg05.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg06.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bottom5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\wildsee-pizol3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\css\login.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\css\mrwater.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\img\commons\user_image.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\img\login\mw-login-bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\img\login\mw-login-bg01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\jquery.form.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\mw\login\login.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\mw\login\ng-login.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\zepto.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\angularjs\angular-1.2.22.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\angularjs\angular-route.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\angularjs\angular-ui-router.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\js\bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\js\bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\js\npm.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\01.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\02.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\03.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\04.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\05.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\06.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\07.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\08.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\09.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.min.css" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\template\index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_water_mw_mw_model_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_water_mw_mw_model_1_0_SNAPSHOT.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml" afterPath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mw-model/mw-model.iml" afterPath="$PROJECT_DIR$/mw-model/mw-model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mw-model/pom.xml" afterPath="$PROJECT_DIR$/mw-model/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml" afterPath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/web-module.iml" afterPath="$PROJECT_DIR$/web-module/web-module.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_module_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_module_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mw-project.iws" />
@@ -202,10 +75,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9039882" vertical-offset="510" max-vertical-offset="1224">
+            <state vertical-scroll-proportion="-24.48" vertical-offset="510" max-vertical-offset="1224">
               <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
               <folding>
                 <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
@@ -229,6 +102,16 @@
                 <element signature="e#3357#3390#0" expanded="true" />
                 <element signature="e#3471#3523#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22173913" vertical-offset="0" max-vertical-offset="690">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -276,7 +159,6 @@
         <option value="$PROJECT_DIR$/mw-model/src/main/java/com/water/db/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web-module/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/js/index.js" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/axure/index.html" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/index.js" />
@@ -308,6 +190,7 @@
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/mw-model/src/main/resources/orm/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -423,244 +306,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web-module" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="orm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mw-model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="water" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1118,7 +763,7 @@
       <workItem from="1479260475268" duration="638000" />
       <workItem from="1479289746815" duration="4939000" />
       <workItem from="1479345961238" duration="1499000" />
-      <workItem from="1479350489839" duration="3105000" />
+      <workItem from="1479350489839" duration="3667000" />
     </task>
     <task id="LOCAL-00001" summary="使用maven的分模块思想来构建项目!">
       <created>1465217296640</created>
@@ -1192,15 +837,21 @@
       <option name="project" value="LOCAL" />
       <updated>1469075124574</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="项目整合mybatis">
+      <created>1479353890288</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1479353890288</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215518000" />
+    <option name="totallyTimeSpent" value="216080000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1223,7 +874,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2811159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2811159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1260,7 +911,8 @@
     <MESSAGE value="图片上传后台实现" />
     <MESSAGE value="form表单提交回调函数获取数据(自己封装的插件)" />
     <MESSAGE value="上传个图片" />
-    <option name="LAST_COMMIT_MESSAGE" value="上传个图片" />
+    <MESSAGE value="项目整合mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="项目整合mybatis" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1513,13 +1165,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35412475" vertical-offset="0" max-vertical-offset="0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/mw-moon.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.46723646" vertical-offset="3446" max-vertical-offset="4148">
@@ -1635,7 +1280,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9039882" vertical-offset="510" max-vertical-offset="1224">
+        <state vertical-scroll-proportion="-24.48" vertical-offset="510" max-vertical-offset="1224">
           <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
           <folding>
             <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
@@ -1659,6 +1304,14 @@
             <element signature="e#3357#3390#0" expanded="true" />
             <element signature="e#3471#3523#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22173913" vertical-offset="0" max-vertical-offset="690">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
