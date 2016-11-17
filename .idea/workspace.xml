@@ -2,24 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0df999-bffb-4369-8145-560697430646" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\controller\TestController.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\controller\UserController.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\controller\ViewDispatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\dao\IBaseDao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\dao\IUserDao.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\dao\impl\BaseDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\dao\impl\UserDaoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\service\IUserService.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\db\service\impl\UserServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\tools\lang\MWLogTool.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\tools\lang\MWStringUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\tools\web\MWLoginUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\com\water\tools\web\MWSessionUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\spring\apring-beans-services.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\spring\spring-beans-config.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\out\production\mw-model\spring\spring-beans-dao.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mw-model/mw-model.iml" afterPath="$PROJECT_DIR$/mw-model/mw-model.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\artifacts\web_module_war.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\artifacts\web_module_war_exploded.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_databind_2_5_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_liferay_org_apache_commons_fileupload_1_2_2_LIFERAY_PATCHED_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_water_mw_mw_model_1_0_SNAPSHOT.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__commons_codec_commons_codec_1_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__commons_io_commons_io_1_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__commons_lang_commons_lang_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__commons_logging_commons_logging_1_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__commons_pool_commons_pool_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__javax_servlet_javax_servlet_api_4_0_0_b01.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__log4j_log4j_1_2_17.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_apache_commons_commons_lang3_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_apache_httpcomponents_httpclient_4_3_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_apache_httpcomponents_httpcore_4_3_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_apache_tomcat_tomcat_jdbc_7_0_35.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_apache_tomcat_tomcat_juli_7_0_35.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_slf4j_slf4j_api_1_7_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_data_spring_data_redis_1_5_0_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_ldap_spring_ldap_core_1_3_1_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_aop_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_beans_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_context_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_context_support_4_0_9_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_core_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_expression_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_jdbc_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_oxm_3_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="mw-project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -793,7 +822,7 @@
       <workItem from="1479260475268" duration="638000" />
       <workItem from="1479289746815" duration="4939000" />
       <workItem from="1479345961238" duration="1499000" />
-      <workItem from="1479350489839" duration="3832000" />
+      <workItem from="1479350489839" duration="3878000" />
     </task>
     <task id="LOCAL-00001" summary="使用maven的分模块思想来构建项目!">
       <created>1465217296640</created>
@@ -879,11 +908,17 @@
       <option name="project" value="LOCAL" />
       <updated>1479354439240</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="项目整合mybatis">
+      <created>1479354601422</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1479354601422</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216245000" />
+    <option name="totallyTimeSpent" value="216291000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
