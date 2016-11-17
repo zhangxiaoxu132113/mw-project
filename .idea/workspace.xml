@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0df999-bffb-4369-8145-560697430646" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\.name" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\artifacts\web_module_war.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\artifacts\web_module_war_exploded.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\compiler.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\copyright\profiles_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\encodings.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__aopalliance_aopalliance_1_0.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_annotations_2_5_0.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__com_fasterxml_jackson_core_jackson_core_2_5_4.xml" afterPath="" />
@@ -44,10 +41,6 @@
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_tx_4_0_5_RELEASE.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_web_4_0_5_RELEASE.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\libraries\Maven__org_springframework_spring_webmvc_4_0_5_RELEASE.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\uiDesigner.xml" afterPath="" />
-      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\vcs.xml" afterPath="" />
       <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\.idea\workspace.xml" afterPath="" />
     </list>
     <ignored path="mw-project.iws" />
@@ -370,8 +363,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -822,7 +815,7 @@
       <workItem from="1479260475268" duration="638000" />
       <workItem from="1479289746815" duration="4939000" />
       <workItem from="1479345961238" duration="1499000" />
-      <workItem from="1479350489839" duration="3878000" />
+      <workItem from="1479350489839" duration="3937000" />
     </task>
     <task id="LOCAL-00001" summary="使用maven的分模块思想来构建项目!">
       <created>1465217296640</created>
@@ -914,11 +907,17 @@
       <option name="project" value="LOCAL" />
       <updated>1479354601422</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="项目整合mybatis">
+      <created>1479354648278</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1479354648278</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="216291000" />
+    <option name="totallyTimeSpent" value="216350000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
