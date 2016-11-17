@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+  PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+  "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+	<properties resource="database-MBG.properties" />
+
+	<!--targetRuntime 此属性用于指定生成的代码的运行目标。 -->
+	<context id="MBG" targetRuntime="MyBatis3">
+		
+		<!-- model类继承 Serializable -->
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+		
+		<!-- 重命名 Example 类 -->
+		<plugin type="org.mybatis.generator.plugins.RenameExampleClassPlugin">
+			<property name="searchString" value="Example$" />
+			<property name="replaceString" value="Criteria" />
+		</plugin>
+
+		<!-- 分页插件 -->
+		<plugin type="org.mybatis.generator.plugins.RowBoundsPlugin" />
+		
+		<!-- 自定义插件:增加批量增加(单语句) -->
+		<plugin type="${plugin.BatcheInsert}"></plugin>
+		
+		<!-- 自定义插件:扩展类,方便新增dao方法 -->
+		<plugin type="${plugin.ExtendClass}"></plugin>
+		
+		<!-- 自定义插件:增加批量增加和批量更新方法
+		<plugin type="${plugin.BatcheInsertAndUpdateBatch}"></plugin>
+		 -->
+		
+		
+		<!-- 添加service层代码生成插件 
+			<plugin type="code.generator.GeneratorServiceLayerPlugin" />
+		 -->
+		<!-- 自定义插件:添加service层代码生成插件-->
+		<plugin type="${plugin.serviceGenerator}">
+			<property name="targetProject" value="${targetProject}" />
+			<property name="serveicePackge" value="${package.serviceInterfaces}" />
+			<property name="serveiceImplPackge" value="${package.serviceImpl}" />
+			<property name="paginationClass" value="${paginationClass}" />
+		</plugin>
+ 		
+
+		
+		<commentGenerator>
+			<property name="suppressAllComments" value="true" />
+		</commentGenerator>
+
+		<jdbcConnection 
+			driverClass="${datasource.driverClassName}"
+			connectionURL="${datasource.url}" 
+			userId="${datasource.username}"
+			password="${datasource.password}">
+		</jdbcConnection>
+
+		<javaTypeResolver>
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+
+		<!-- 生成模型的包名和位置 -->
+		<javaModelGenerator  targetProject="${targetProject}" targetPackage="${package.model}">
+			<property name="enableSubPackages" value="true" />
+			<!-- 从数据库返回的值被清理前后的空格 -->
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+		<!-- 生成的映射文件包名和位置 -->
+		<sqlMapGenerator targetProject="${targetProject}" targetPackage="${package.mapping}">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+		<!-- 生成DAO的包名和位置 -->
+		<javaClientGenerator targetProject="${targetProject}" targetPackage="${package.dao}" type="XMLMAPPER">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+		
+		
+		<!-- 表配置 -->	
+		<!--<table tableName="kw_keyword_statistics" domainObjectName="KeywordStatistics">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_keyword_statistics_record" domainObjectName="KeywordStatisticsRecord">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_search_engine" domainObjectName="SearchEngine">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_site" domainObjectName="Site">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_task" domainObjectName="Task">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_task_record" domainObjectName="TaskRecord">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_task_keyword" domainObjectName="TaskKeyword">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_task_keyword_record" domainObjectName="TaskKeywordRecord">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_task_site" domainObjectName="TaskSite">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_task_site_history" domainObjectName="TaskSiteHistory">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_keyword" domainObjectName="Keyword">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_keyword_result" domainObjectName="KeywordResult">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_keyword_record" domainObjectName="KeywordRecord">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_keyword_record_compare" domainObjectName="KeywordRecordCompare">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_area" domainObjectName="Area">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+
+		<table tableName="kw_department" domainObjectName="Department">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_keyword" domainObjectName="Keyword">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_keyword_remark" domainObjectName="KeywordRemark">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_keyword_result" domainObjectName="KeywordResult">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_keyword_root" domainObjectName="KeywordRoot">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_keyword_special" domainObjectName="KeywordSpecial">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_business" domainObjectName="Business">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_business_header" domainObjectName="BusinessHeader">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_business_site" domainObjectName="BusinessSite">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_account" domainObjectName="Account">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_account_business" domainObjectName="AccountBusiness">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<table tableName="kw_account" domainObjectName="Account">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<!--<table tableName="kw_dictionary" domainObjectName="Dictionary">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_dictionary_keyword" domainObjectName="DictionaryKeyword">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_dictionary_label" domainObjectName="DictionaryLabel">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_task" domainObjectName="Task">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_keyword_rank_click" domainObjectName="KeywordRankClick">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_task_record" domainObjectName="TaskRecord">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_task_record_compare" domainObjectName="TaskRecordCompare">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+
+		<!--<table tableName="kw_area" domainObjectName="Area">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_category" domainObjectName="Category">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_header" domainObjectName="Header">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_label" domainObjectName="Label">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_root" domainObjectName="Root">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_search_engine" domainObjectName="SearchEngine">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_site" domainObjectName="Site">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_special" domainObjectName="Special">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="tagresult" domainObjectName="TagResult">
+			<property name="useActualColumnNames" value="true" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_account" domainObjectName="Account">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_baidu_keyword_statistics_record" domainObjectName="BaiduKeywordStatisticsRecord">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>
+		<table tableName="kw_baidu_keyword_statistics" domainObjectName="BaiduKeywordStatistics">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="kw_baidu_url_result" domainObjectName="BaiduUrlResult">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="ts_baidu_url_statistics_task" domainObjectName="BaiduUrlStatisticsTask">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+		<!--<table tableName="ts_baidu_url_statistics" domainObjectName="BaiduUrlStatistics">
+			<property name="useActualColumnNames" value="false" />
+			<property name="useActualColumnNames1" value="xx" />
+		</table>-->
+	</context>
+</generatorConfiguration>

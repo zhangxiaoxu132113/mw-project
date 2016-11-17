@@ -1,0 +1,18 @@
+MyBatis Generator用于从数据库表自动生成DAO层和Service层的代码。步骤如下。
+
+1,建好相应数据库表。
+
+2,配置相关参数在generatorConfig.xml文件的以下元素中配置
+<table tableName="USER" domainObjectName="User"></table>
+表示要从数据库User表中生成User对象相关的增删改查的代码。
+
+3,运行MyBatisGeneratorTool类的main函数。刷新src包即可看到生成的代码。
+
+4，写单元测试验证代码是否能正常运行。例子见test文件夹中的。
+
+备注：若生成代码后，数据库有改动需要重新生成代码，可心删除对应实体的Mapper.xml
+文件,再重新运行第三步。因为重新运行后java代码文件后被新生成的类文件覆盖，而Mapper.xml则会以
+append的方式添加了最后，所以要将其删除。
+
+
+
