@@ -2,6 +2,134 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b0df999-bffb-4369-8145-560697430646" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw-model/src/main/resources/config.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw-model/src/main/resources/orm/mybatis-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\controller\TestController.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\controller\UserController.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\controller\ViewDispatcher.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\IBaseDao.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\IUserDao.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\impl\BaseDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\dao\impl\UserDaoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\service\IUserService.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\db\service\impl\UserServiceImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\lang\MWLogTool.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\lang\MWStringUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\web\MWLoginUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\com\water\tools\web\MWSessionUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\spring\apring-beans-services.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\spring\spring-beans-config.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\classes\spring\spring-beans-dao.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\mw-model\target\mw-model-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT.war" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\config\applicationContext.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\config\spring-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-codec-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-io-1.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-lang-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-lang3-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-logging-1.1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\commons-pool-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\httpclient-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\httpcore-4.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-annotations-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-core-2.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-core-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-databind-2.5.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\jackson-mapper-asl-1.9.13.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\javax.servlet-api-4.0.0-b01.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\log4j-1.2.17.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\mw-model-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\mysql-connector-java-5.1.38.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\org.apache.commons.fileupload-1.2.2.LIFERAY-PATCHED-1.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\slf4j-api-1.7.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-aop-4.0.9.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-beans-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-context-4.0.9.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-context-support-4.0.9.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-core-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-data-redis-1.5.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-expression-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-jdbc-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-ldap-core-1.3.1.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-oxm-3.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-tx-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-web-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\spring-webmvc-4.0.5.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\tomcat-jdbc-7.0.35.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\lib\tomcat-juli-7.0.35.jar" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\log4j.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\page\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\page\login.jsp" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg02.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg03.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg04.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg05.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bg06.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\bottom5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\content\wildsee-pizol3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\css\login.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\css\mrwater.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\img\commons\user_image.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\img\login\mw-login-bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\img\login\mw-login-bg01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\jquery.form.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\mw\login\login.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\mw\login\ng-login.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\asset\js\zepto.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\angularjs\angular-1.2.22.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\angularjs\angular-route.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\angularjs\angular-ui-router.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\bootstrap-3.3.5-dist\js\npm.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\01.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\02.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\03.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\04.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\05.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\06.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\07.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\08.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\overlays\09.png" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.min.css" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\plugs\vegas\vegas.min.js.map" afterPath="" />
+      <change type="DELETED" beforePath="E:\repository\mrwater\mw-project\web-module\target\mw-webmodule-1.0-SNAPSHOT\template\index.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_water_mw_mw_model_1_0_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_water_mw_mw_model_1_0_SNAPSHOT.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml" afterPath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mw-model/mw-model.iml" afterPath="$PROJECT_DIR$/mw-model/mw-model.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mw-model/pom.xml" afterPath="$PROJECT_DIR$/mw-model/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml" afterPath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/web-module.iml" afterPath="$PROJECT_DIR$/web-module/web-module.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_module_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_module_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mw-project.iws" />
@@ -22,6 +150,9 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
   <component name="DatabaseView">
     <option name="GROUP_SCHEMA" value="true" />
     <option name="GROUP_CONTENTS" value="false" />
@@ -34,54 +165,79 @@
     <favorites_list name="mw-project" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mw-upload.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/plugs/mrwater/mw-upload.js">
+    <leaf>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider editor-type-id="MultiMarkdownFxHtmlEditor">
+            <state />
+          </provider>
+          <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="3" />
+            <state vertical-scroll-proportion="-0.0" vertical-offset="204" max-vertical-offset="340">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emotionRecord.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/page/emotionRecord.jsp">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mw-model/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2601" max-vertical-offset="3417">
+              <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mw-moon.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/mw-moon.js">
+      <file leaf-file-name="config.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="1003">
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9039882" vertical-offset="510" max-vertical-offset="1224">
+              <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
               <folding>
-                <marker date="1468726192000" expanded="true" signature="3268:3286" placeholder="..." />
+                <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
+                <element signature="e#1367#1383#0" expanded="true" />
+                <element signature="e#1426#1440#0" expanded="true" />
+                <element signature="e#1488#1503#0" expanded="true" />
+                <element signature="e#1551#1570#0" expanded="true" />
+                <element signature="e#1650#1672#0" expanded="true" />
+                <element signature="e#1750#1770#0" expanded="true" />
+                <element signature="e#1949#1967#0" expanded="true" />
+                <element signature="e#2049#2067#0" expanded="true" />
+                <element signature="e#2154#2180#0" expanded="true" />
+                <element signature="e#2272#2305#0" expanded="true" />
+                <element signature="e#2397#2420#0" expanded="true" />
+                <element signature="e#2542#2582#0" expanded="true" />
+                <element signature="e#2692#2729#0" expanded="true" />
+                <element signature="e#2829#2855#0" expanded="true" />
+                <element signature="e#2939#2963#0" expanded="true" />
+                <element signature="e#3080#3103#0" expanded="true" />
+                <element signature="e#3221#3244#0" expanded="true" />
+                <element signature="e#3357#3390#0" expanded="true" />
+                <element signature="e#3471#3523#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mw-moon.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/mw-moon.css">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-65.10714">
-              <caret line="222" column="26" selection-start-line="222" selection-start-column="26" selection-end-line="222" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25958702">
-              <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+            <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="680">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="10" selection-end-column="71" />
               <folding />
             </state>
           </provider>
@@ -114,18 +270,12 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="zhangxiaoxu132113" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="mrwater" />
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/mw-model/src/main/java/com/water/db/service/impl/UserServiceImpl.java" />
         <option value="$PROJECT_DIR$/web-module/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/mw-model/pom.xml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/js/index.js" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/axure/index.html" />
@@ -141,8 +291,6 @@
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/css/font/englishFont/mw-font.css" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/css/font/englishFont/demo.html" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/ng-mw-moon.js" />
-        <option value="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml" />
-        <option value="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/mw-model/src/main/java/com/water/tools/lang/FileTools.java" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/css/mrwater.css" />
         <option value="$PROJECT_DIR$/mw-model/src/main/java/com/water/db/controller/commons/UploadController.java" />
@@ -153,6 +301,13 @@
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/mw-moon.js" />
         <option value="$PROJECT_DIR$/web-module/src/main/webapp/asset/css/mw-moon.css" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/mw-model/src/main/resources/config.properties" />
+        <option value="$PROJECT_DIR$/mw-model/pom.xml" />
+        <option value="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml" />
+        <option value="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/mw-model/src/main/resources/orm/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml" />
       </list>
     </option>
   </component>
@@ -176,7 +331,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="failureBehavior" value="NEVER" />
-        <option name="mavenHome" value="Bundled (Maven 3)" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -224,9 +378,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="827" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -235,6 +390,8 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
@@ -249,12 +406,8 @@
       <autoscrollToSource />
       <autoscrollFromSource />
       <sortByType />
-      <manualOrder />
-      <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -283,13 +436,239 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="github" />
+              <option name="myItemId" value="web-module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-module" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="orm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="water" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mw-model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="water" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -298,13 +677,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8 (1)" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.5091954" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="options.lastSelected" value="MavenSettings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -321,6 +707,35 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat-server">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
       <deployment />
       <server-settings />
@@ -330,12 +745,6 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -356,15 +765,114 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
       <method />
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
@@ -386,116 +894,6 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
-      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
-      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
-      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
-      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
-      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
-      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
@@ -533,20 +931,6 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="/Applications/Flash Player Debugger.app" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -563,66 +947,28 @@
       </ExternalSystemSettings>
       <method />
     </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <module name="" />
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="depsClasspath" value="false" />
-      <setting name="passParentEnv" value="true" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <setting name="launchBrowser" value="false" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
-    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -636,207 +982,7 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="mw-project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list />
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <method />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
-      <scripts />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
-      <method />
-    </configuration>
-    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="tomcat-server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0.43" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration default="false" name="tomcat-server" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.70" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <deployment>
         <artifact name="web-module:war exploded">
           <settings>
@@ -853,9 +999,13 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="54808" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -965,6 +1115,10 @@
       <workItem from="1468567071732" duration="10206000" />
       <workItem from="1468631034269" duration="2987000" />
       <workItem from="1469074614578" duration="778000" />
+      <workItem from="1479260475268" duration="638000" />
+      <workItem from="1479289746815" duration="4939000" />
+      <workItem from="1479345961238" duration="1499000" />
+      <workItem from="1479350489839" duration="3105000" />
     </task>
     <task id="LOCAL-00001" summary="使用maven的分模块思想来构建项目!">
       <created>1465217296640</created>
@@ -1042,39 +1196,42 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="205337000" />
+    <option name="totallyTimeSpent" value="215518000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="827" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39480874" sideWeight="0.508596" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32879657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32650274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28223497" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32108843" sideWeight="0.491404" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39480874" sideWeight="0.508596" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761088" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31989247" sideWeight="0.491404" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32795697" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3252688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329235" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2811159" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295129" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1089,6 +1246,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
     <MESSAGE value="使用maven的分模块思想来构建项目!" />
     <MESSAGE value="使用.gitignore文件来优化要提交的文件" />
     <MESSAGE value="实现了首页界面的一小部分" />
@@ -1116,66 +1276,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web-module/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.55407405">
-          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mw-model/src/main/java/com/water/db/dao/impl/BaseDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15647227">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mw-model/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.535715">
-          <caret line="132" column="0" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/spring/apring-beans-services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.321429">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/spring/spring-beans-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.285715">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/spring/spring-beans-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mw-project.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.git/info/exclude">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/axure/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -1186,49 +1290,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/plugs/bootstrap-3.3.5-dist/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="51.81065">
+        <state vertical-scroll-proportion="51.81065" vertical-offset="0" max-vertical-offset="0">
           <caret line="1592" column="17" selection-start-line="1592" selection-start-column="17" selection-end-line="1592" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09375">
+        <state vertical-scroll-proportion="0.09375" vertical-offset="0" max-vertical-offset="0">
           <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/login/login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03125">
+        <state vertical-scroll-proportion="0.03125" vertical-offset="0" max-vertical-offset="0">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/page/header.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.642858">
+        <state vertical-scroll-proportion="-8.642858" vertical-offset="0" max-vertical-offset="0">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/log4j.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/page/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40030912">
+        <state vertical-scroll-proportion="0.40030912" vertical-offset="0" max-vertical-offset="0">
           <caret line="109" column="88" selection-start-line="109" selection-start-column="88" selection-end-line="109" selection-end-column="88" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/angular/directives/directivies-commons.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
         </state>
       </provider>
@@ -1240,112 +1344,98 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/page/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.625966">
+        <state vertical-scroll-proportion="0.625966" vertical-offset="0" max-vertical-offset="0">
           <caret line="215" column="6" selection-start-line="215" selection-start-column="6" selection-end-line="216" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="81" column="40" selection-start-line="81" selection-start-column="28" selection-end-line="81" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mrwater.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/plugs/sweet-alert/js/sweet-alert.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24039829">
+        <state vertical-scroll-proportion="0.24039829" vertical-offset="0" max-vertical-offset="0">
           <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/plugs/sweet-alert/css/sweet-alert.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="281" column="26" selection-start-line="281" selection-start-column="4" selection-end-line="281" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03259259">
+        <state vertical-scroll-proportion="0.03259259" vertical-offset="0" max-vertical-offset="0">
           <caret line="22" column="76" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/github/note/01-创建地图">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="4" selection-start-line="0" selection-start-column="4" selection-end-line="0" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/font/englishFont/mw-font.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73925924">
+        <state vertical-scroll-proportion="0.73925924" vertical-offset="0" max-vertical-offset="0">
           <caret line="49" column="26" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/ng-mw-moon.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.031294454">
+        <state vertical-scroll-proportion="0.031294454" vertical-offset="0" max-vertical-offset="0">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/font/englishFont/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29333332">
+        <state vertical-scroll-proportion="0.29333332" vertical-offset="0" max-vertical-offset="0">
           <caret line="9" column="52" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="68" column="59" selection-start-line="68" selection-start-column="59" selection-end-line="68" selection-end-column="59" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mw-model/src/main/java/com/water/db/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="49" selection-start-line="60" selection-start-column="49" selection-end-line="60" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mw-model/src/main/java/com/water/tools/lang/FileTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25035563">
+        <state vertical-scroll-proportion="0.25035563" vertical-offset="0" max-vertical-offset="0">
           <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mw-model/src/main/java/com/water/db/controller/ViewDispatcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4694168">
+        <state vertical-scroll-proportion="0.4694168" vertical-offset="0" max-vertical-offset="0">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
@@ -1357,94 +1447,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/template/headerRecord.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-116.28571">
+        <state vertical-scroll-proportion="-116.28571" vertical-offset="0" max-vertical-offset="0">
           <caret line="148" column="28" selection-start-line="145" selection-start-column="16" selection-end-line="148" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mw-model/src/main/java/com/water/db/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40682787">
+        <state vertical-scroll-proportion="0.40682787" vertical-offset="0" max-vertical-offset="0">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="30" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mw-model/src/main/java/com/water/db/controller/commons/UploadController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.658606">
+        <state vertical-scroll-proportion="-0.658606" vertical-offset="0" max-vertical-offset="0">
           <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/mrwater.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73925924">
+        <state vertical-scroll-proportion="0.73925924" vertical-offset="0" max-vertical-offset="0">
           <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/plugs/mrwater/mw-upload.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/font/iconfont/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.049773756">
+        <state vertical-scroll-proportion="0.049773756" vertical-offset="0" max-vertical-offset="0">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/imageFilter/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/imageFilter/default.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7071006">
+        <state vertical-scroll-proportion="0.7071006" vertical-offset="0" max-vertical-offset="0">
           <caret line="265" column="24" selection-start-line="265" selection-start-column="24" selection-end-line="265" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/imageFilter/aden.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/imageFilter/demo-site.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.556213">
+        <state vertical-scroll-proportion="4.556213" vertical-offset="0" max-vertical-offset="0">
           <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/page/emotionRecord.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/mw-moon.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding>
-            <marker date="1468726192000" expanded="true" signature="3268:3286" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1455,25 +1515,150 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35412475">
+        <state vertical-scroll-proportion="0.35412475" vertical-offset="0" max-vertical-offset="0">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/css/mw-moon.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-65.10714">
+        <state vertical-scroll-proportion="0.46723646" vertical-offset="3446" max-vertical-offset="4148">
           <caret line="222" column="26" selection-start-line="222" selection-start-column="26" selection-end-line="222" selection-end-column="26" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/asset/js/mw/mw-moon.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/page/emotionRecord.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
+          <caret line="128" column="18" selection-start-line="128" selection-start-column="18" selection-end-line="128" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/plugs/mrwater/mw-upload.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14265734" vertical-offset="0" max-vertical-offset="715">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MultiMarkdownFxHtmlEditor">
+        <state />
+      </provider>
+      <provider editor-type-id="MultiMarkdownFxPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25958702">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="340">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/druid/1.0.9/druid-1.0.9.jar!/com/alibaba/druid/pool/DruidDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33230293" vertical-offset="6330" max-vertical-offset="40885">
+          <caret line="483" column="20" selection-start-line="483" selection-start-column="16" selection-end-line="483" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mw-model/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3417">
+          <caret line="96" column="53" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/spring/spring-beans-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/spring-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22109826" vertical-offset="0" max-vertical-offset="1275">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24928775" vertical-offset="709" max-vertical-offset="1462">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="17" selection-end-line="52" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-module/src/main/webapp/WEB-INF/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.12" vertical-offset="0" max-vertical-offset="680">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="10" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis-spring/1.1.1/mybatis-spring-1.1.1.jar!/org/mybatis/spring/SqlSessionFactoryBean.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1174" max-vertical-offset="4216">
+          <caret line="134" column="71" selection-start-line="134" selection-start-column="57" selection-end-line="134" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/orm/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19020979" vertical-offset="0" max-vertical-offset="715">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mw-model/src/main/resources/orm/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9039882" vertical-offset="510" max-vertical-offset="1224">
+          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
+          <folding>
+            <element signature="n#bean#0;n#beans#0;n#!!top" expanded="false" />
+            <element signature="e#1367#1383#0" expanded="true" />
+            <element signature="e#1426#1440#0" expanded="true" />
+            <element signature="e#1488#1503#0" expanded="true" />
+            <element signature="e#1551#1570#0" expanded="true" />
+            <element signature="e#1650#1672#0" expanded="true" />
+            <element signature="e#1750#1770#0" expanded="true" />
+            <element signature="e#1949#1967#0" expanded="true" />
+            <element signature="e#2049#2067#0" expanded="true" />
+            <element signature="e#2154#2180#0" expanded="true" />
+            <element signature="e#2272#2305#0" expanded="true" />
+            <element signature="e#2397#2420#0" expanded="true" />
+            <element signature="e#2542#2582#0" expanded="true" />
+            <element signature="e#2692#2729#0" expanded="true" />
+            <element signature="e#2829#2855#0" expanded="true" />
+            <element signature="e#2939#2963#0" expanded="true" />
+            <element signature="e#3080#3103#0" expanded="true" />
+            <element signature="e#3221#3244#0" expanded="true" />
+            <element signature="e#3357#3390#0" expanded="true" />
+            <element signature="e#3471#3523#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1519,7 +1704,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8 (2)</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1531,11 +1716,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|mw-model</last-edited>
+          <last-edited>mw-model</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.5091954" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

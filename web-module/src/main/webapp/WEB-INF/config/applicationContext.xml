@@ -29,6 +29,7 @@
       <!--</list>-->
     <!--</property>-->
   <!--</bean>-->
-
+    <import resource="classpath:orm/spring-mybatis.xml"/>
+    <import resource="classpath:spring/spring-beans-dao.xml"/>
 
 </beans>
