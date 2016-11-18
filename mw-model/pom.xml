@@ -18,6 +18,8 @@
         <mybatis.version>3.2.7</mybatis.version>
         <mybatis.spring>1.1.1</mybatis.spring>
         <druid.versoin>1.0.9</druid.versoin>
+        <quartz.version>1.8.6</quartz.version>
+
     </properties>
 
     <dependencies>
@@ -188,6 +190,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>${druid.versoin}</version>
+        </dependency>
+        <!-- quartz -->
+        <dependency>
+            <groupId>org.quartz-scheduler</groupId>
+            <artifactId>quartz</artifactId>
+            <version>${quartz.version}</version>
         </dependency>
     </dependencies>
 
