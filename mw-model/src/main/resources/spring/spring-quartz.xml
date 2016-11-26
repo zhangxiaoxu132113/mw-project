@@ -33,4 +33,13 @@
         </property>
     </bean>
 
+    <!-- 总管理类 如果将lazy-init='false'那么容器启动就会执行调度程序 -->
+    <bean id="startQuertz" lazy-init="true" autowire="default"
+          class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="jobRunTime01"/>
+            </list>
+        </property>
+    </bean>
 </beans>
