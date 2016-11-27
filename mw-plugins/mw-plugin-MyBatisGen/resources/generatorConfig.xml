@@ -195,7 +195,7 @@
 			<property name="useActualColumnNames" value="false" />
 			<property name="useActualColumnNames1" value="xx" />
 		</table>-->
-		<table tableName="kw_account" domainObjectName="Account">
+		<table tableName="mw_user" domainObjectName="Account">
 			<property name="useActualColumnNames" value="false" />
 			<property name="useActualColumnNames1" value="xx" />
 		</table>

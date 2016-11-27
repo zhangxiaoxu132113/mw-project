@@ -7,3 +7,9 @@ out
 .idea
 *.iml
 
+/.idea/
+/mw.iml
+/web-module/target/
+/web-module/mw-webmodule.iml
+/mw-model/mw-model.iml
+/mw-model/target/
