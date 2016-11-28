@@ -1,5 +1,7 @@
 package com.water.crawl.core;
 
+import com.water.crawl.utils.StringUtil;
+
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
@@ -52,7 +54,7 @@ public class DownloadImg {
                 System.out.println("imgSrc = "+imgSrc);
             } else {
                 //获取网站的一级域名
-                String hostName = getTopDomainWithoutSubdomain(requestUrl);
+                String hostName = StringUtil.getTopDomainWithoutSubdomain(requestUrl);
                 url = new URL("http://"+ hostName+imgSrc);
             }
 
@@ -113,16 +115,7 @@ public class DownloadImg {
         }
     }
 
-    /**获取网站的一级域名*/
-    public static String getTopDomainWithoutSubdomain(String url)throws MalformedURLException {
-        String host = new URL(url).getHost().toLowerCase();// 此处获取值转换为小写
-        Pattern pattern = Pattern.compile("(?<=//|)((\\w)+\\.)+\\w+");
-        Matcher matcher = pattern.matcher(host);
-        while (matcher.find()) {
-            return matcher.group();
-        }
-        return null;
-    }
+
 
     /*判断url是否包含图片*/
     public boolean find(String regex,String url){
