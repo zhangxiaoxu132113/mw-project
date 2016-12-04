@@ -1,5 +1,6 @@
 package com.water.crawl.model;
 
+import com.water.crawl.core.WaterHtmlParse;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpResponse;
@@ -14,9 +15,20 @@ public class Html {
 
     public int id;
 
+    public String title;
+
+    public String getTitle() {
+        return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
     /**
      * 请求状态码
      */
+
     public int responseStatus;
 
     /**
@@ -31,21 +43,24 @@ public class Html {
 
     public Header[] headers;
 
-    public Html() {}
+    public Html() {
+    }
 
     public Html(HttpResponse httpResponse, String url) {
         try {
             if (httpResponse != null && StringUtils.isNotBlank(url)) {
                 this.url = url;
                 this.responseStatus = httpResponse.getStatusLine().getStatusCode();
-                this.body = EntityUtils.toString(httpResponse.getEntity(),"utf-8");
-                System.out.println("请求资源地址 =【" + url + "】响应状态码 = 【" +responseStatus + "】");
+                this.body = EntityUtils.toString(httpResponse.getEntity(), "gb2312");
+                this.title = WaterHtmlParse.getPageTitle(body);
+                System.out.println("请求资源地址 =【" + url + "】响应状态码 = 【" + responseStatus + "】标题 = 【" + title + "】");
             }
         } catch (IOException e) {
             e.printStackTrace();
         }
 
     }
+
     public int getId() {
         return id;
     }

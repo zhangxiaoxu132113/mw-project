@@ -75,7 +75,7 @@
 
     <!-- 访问首页 -->
     <welcome-file-list>
-        <welcome-file>/WEB-INF/page/emotionRecord.jsp</welcome-file>
+        <welcome-file>/WEB-INF/page/login.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
         

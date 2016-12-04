@@ -8,7 +8,9 @@ import org.htmlparser.Parser;
 import org.htmlparser.filters.TagNameFilter;
 import org.htmlparser.tags.ImageTag;
 import org.htmlparser.tags.LinkTag;
+import org.htmlparser.tags.TitleTag;
 import org.htmlparser.util.NodeList;
+import org.htmlparser.util.ParserException;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -54,6 +56,27 @@ public class WaterHtmlParse {
         }
 
         return null;
+    }
+
+    public static String getPageTitle(String page) {
+        String title = null;
+        try {
+            Parser parser = new Parser(page);
+            NodeFilter nodeFilter = new TagNameFilter("title");
+            NodeList nodeList = parser.extractAllNodesThatMatch(nodeFilter);
+            Node eachNode;
+            TitleTag titleTag;
+            if (nodeList != null && nodeList.size() == 1) {
+                for (int i = 0; i < nodeList.size(); i++) {
+                    eachNode = nodeList.elementAt(i);
+                    titleTag = (TitleTag) eachNode;
+                    title = titleTag.getTitle();
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return title;
     }
 
     /**

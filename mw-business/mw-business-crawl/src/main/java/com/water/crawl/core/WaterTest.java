@@ -1,6 +1,8 @@
 package com.water.crawl.core;
 
 import com.water.crawl.model.Html;
+import com.water.crawl.utils.Config;
+import com.water.crawl.utils.Constants;
 import com.water.crawl.utils.StringUtil;
 
 import java.net.MalformedURLException;
@@ -19,22 +21,22 @@ public class WaterTest {
      */
     public static void main(String[] args) {
         WaterloadHtml waterloadHtml = new WaterloadHtml();
-        int num = 712521;
+        int num = 712948;
         String requestUrl = "http://www.mm11nn.com/tttppp/";
         System.out.println("requesturl = " + requestUrl);
-        for (int i=0;i<20;i++) {
+        for (int i = 0; i < 20; i++) {
 
-            Html html = waterloadHtml.getHtml(requestUrl+num+".html");
-            System.out.print(requestUrl+num+".html");
+            Html html = waterloadHtml.getHtml(requestUrl + num + ".html");
+            System.out.print(requestUrl + num + ".html");
             System.out.println("content = " + html.getBody());
             List<String> imageSrcList = WaterHtmlParse.getImgSrc(html.getBody());
             System.out.println("开始解析下载图片... ...");
             if (imageSrcList == null) continue;
             //遍历所有的img路径,并下载到本地
             for (String imgsrc : imageSrcList) {
-                DownloadImg.loadImg(requestUrl, imgsrc, "/Users/mrwater/Downloads/qj/");
+                DownloadImg.loadImg(requestUrl, imgsrc, Config.craw_img_path + html.getTitle());
             }
-            num +=i;
+            num += i;
         }
 
 //        for (int i = 0; i < hrefLists.size(); i++) {
