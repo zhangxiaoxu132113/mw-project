@@ -10,6 +10,7 @@ import java.util.Properties;
 
 /**
  * Created by mrwater on 2016/11/29.
+ * 从配置文件读取的常量
  */
 public class Constants {
     public static Properties properties;
