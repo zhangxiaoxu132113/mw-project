@@ -195,7 +195,7 @@
 			<property name="useActualColumnNames" value="false" />
 			<property name="useActualColumnNames1" value="xx" />
 		</table>-->
-		<table tableName="mw_user" domainObjectName="Account">
+		<table tableName="crawl_weibo" domainObjectName="Weibo">
 			<property name="useActualColumnNames" value="false" />
 			<property name="useActualColumnNames1" value="xx" />
 		</table>

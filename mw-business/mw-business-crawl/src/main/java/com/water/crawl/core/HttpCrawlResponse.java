@@ -1,8 +1,13 @@
 package com.water.crawl.core;
 
 import com.squareup.okhttp.Response;
+import com.water.crawl.utils.StringUtil;
 
 import java.io.IOException;
+import java.nio.ByteBuffer;
+import java.nio.charset.Charset;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * Created by mrwater on 2016/12/3.
@@ -27,6 +32,9 @@ public class HttpCrawlResponse {
     }
 
     public String getPageBody() throws IOException {
-        return response.body().string().replace("\\", "");
+        String htmlBody = StringUtil.decodeUnicode(response.body().string());
+        return htmlBody.replace("\\", "");
     }
+
+
 }

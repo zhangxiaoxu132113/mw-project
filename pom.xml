@@ -12,6 +12,7 @@
         <module>mw-model</module>
         <module>web-module</module>
         <module>mw-business</module>
+        <module>mw-plugins</module>
     </modules>
 
     <properties>

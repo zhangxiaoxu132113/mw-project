@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="net.health.dao.statistics.WeiboMapper">
+  <resultMap id="BaseResultMap" type="net.health.model.Weibo">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="text" jdbcType="VARCHAR" property="text" />
+    <result column="pic_ids" jdbcType="VARCHAR" property="picIds" />
+    <result column="geo" jdbcType="VARCHAR" property="geo" />
+    <result column="visible" jdbcType="INTEGER" property="visible" />
+    <result column="attitudes_count" jdbcType="INTEGER" property="attitudesCount" />
+    <result column="comments_count" jdbcType="INTEGER" property="commentsCount" />
+    <result column="reposts_count" jdbcType="INTEGER" property="repostsCount" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, text, pic_ids, geo, visible, attitudes_count, comments_count, reposts_count, 
+    user_id
+  </sql>
+  <select id="selectByExample" parameterType="net.health.model.WeiboCriteria" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from crawl_weibo
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from crawl_weibo
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="net.health.model.WeiboCriteria">
+    delete from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="net.health.model.Weibo">
+    insert into crawl_weibo (id, text, pic_ids, 
+      geo, visible, attitudes_count, 
+      comments_count, reposts_count, user_id
+      )
+    values (#{id,jdbcType=VARCHAR}, #{text,jdbcType=VARCHAR}, #{picIds,jdbcType=VARCHAR}, 
+      #{geo,jdbcType=VARCHAR}, #{visible,jdbcType=INTEGER}, #{attitudesCount,jdbcType=INTEGER}, 
+      #{commentsCount,jdbcType=INTEGER}, #{repostsCount,jdbcType=INTEGER}, #{userId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="net.health.model.Weibo">
+    insert into crawl_weibo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="text != null">
+        text,
+      </if>
+      <if test="picIds != null">
+        pic_ids,
+      </if>
+      <if test="geo != null">
+        geo,
+      </if>
+      <if test="visible != null">
+        visible,
+      </if>
+      <if test="attitudesCount != null">
+        attitudes_count,
+      </if>
+      <if test="commentsCount != null">
+        comments_count,
+      </if>
+      <if test="repostsCount != null">
+        reposts_count,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="text != null">
+        #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="picIds != null">
+        #{picIds,jdbcType=VARCHAR},
+      </if>
+      <if test="geo != null">
+        #{geo,jdbcType=VARCHAR},
+      </if>
+      <if test="visible != null">
+        #{visible,jdbcType=INTEGER},
+      </if>
+      <if test="attitudesCount != null">
+        #{attitudesCount,jdbcType=INTEGER},
+      </if>
+      <if test="commentsCount != null">
+        #{commentsCount,jdbcType=INTEGER},
+      </if>
+      <if test="repostsCount != null">
+        #{repostsCount,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="net.health.model.WeiboCriteria" resultType="java.lang.Integer">
+    select count(*) from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update crawl_weibo
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.text != null">
+        text = #{record.text,jdbcType=VARCHAR},
+      </if>
+      <if test="record.picIds != null">
+        pic_ids = #{record.picIds,jdbcType=VARCHAR},
+      </if>
+      <if test="record.geo != null">
+        geo = #{record.geo,jdbcType=VARCHAR},
+      </if>
+      <if test="record.visible != null">
+        visible = #{record.visible,jdbcType=INTEGER},
+      </if>
+      <if test="record.attitudesCount != null">
+        attitudes_count = #{record.attitudesCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.commentsCount != null">
+        comments_count = #{record.commentsCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.repostsCount != null">
+        reposts_count = #{record.repostsCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.userId != null">
+        user_id = #{record.userId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update crawl_weibo
+    set id = #{record.id,jdbcType=VARCHAR},
+      text = #{record.text,jdbcType=VARCHAR},
+      pic_ids = #{record.picIds,jdbcType=VARCHAR},
+      geo = #{record.geo,jdbcType=VARCHAR},
+      visible = #{record.visible,jdbcType=INTEGER},
+      attitudes_count = #{record.attitudesCount,jdbcType=INTEGER},
+      comments_count = #{record.commentsCount,jdbcType=INTEGER},
+      reposts_count = #{record.repostsCount,jdbcType=INTEGER},
+      user_id = #{record.userId,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="net.health.model.Weibo">
+    update crawl_weibo
+    <set>
+      <if test="text != null">
+        text = #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="picIds != null">
+        pic_ids = #{picIds,jdbcType=VARCHAR},
+      </if>
+      <if test="geo != null">
+        geo = #{geo,jdbcType=VARCHAR},
+      </if>
+      <if test="visible != null">
+        visible = #{visible,jdbcType=INTEGER},
+      </if>
+      <if test="attitudesCount != null">
+        attitudes_count = #{attitudesCount,jdbcType=INTEGER},
+      </if>
+      <if test="commentsCount != null">
+        comments_count = #{commentsCount,jdbcType=INTEGER},
+      </if>
+      <if test="repostsCount != null">
+        reposts_count = #{repostsCount,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="net.health.model.Weibo">
+    update crawl_weibo
+    set text = #{text,jdbcType=VARCHAR},
+      pic_ids = #{picIds,jdbcType=VARCHAR},
+      geo = #{geo,jdbcType=VARCHAR},
+      visible = #{visible,jdbcType=INTEGER},
+      attitudes_count = #{attitudesCount,jdbcType=INTEGER},
+      comments_count = #{commentsCount,jdbcType=INTEGER},
+      reposts_count = #{repostsCount,jdbcType=INTEGER},
+      user_id = #{userId,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <select id="selectByExampleWithRowbounds" parameterType="net.health.model.WeiboCriteria" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <insert id="insertBatch">
+    insert into crawl_weibo (id, text, pic_ids, geo, visible, attitudes_count, comments_count, reposts_count, user_id) values 
+    <foreach collection="list" index="index" item="item" separator=",">
+      (#{item.id,jdbcType=VARCHAR}, #{item.text,jdbcType=VARCHAR}, #{item.picIds,jdbcType=VARCHAR}, 
+        #{item.geo,jdbcType=VARCHAR}, #{item.visible,jdbcType=INTEGER}, #{item.attitudesCount,jdbcType=INTEGER}, 
+        #{item.commentsCount,jdbcType=INTEGER}, #{item.repostsCount,jdbcType=INTEGER}, 
+        #{item.userId,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
+  <resultMap id="BaseResultMap" type="net.health.model.Weibo">
+    <id column="id" jdbcType="VARCHAR" property="id" />
+    <result column="text" jdbcType="VARCHAR" property="text" />
+    <result column="pic_ids" jdbcType="VARCHAR" property="picIds" />
+    <result column="geo" jdbcType="VARCHAR" property="geo" />
+    <result column="visible" jdbcType="INTEGER" property="visible" />
+    <result column="attitudes_count" jdbcType="INTEGER" property="attitudesCount" />
+    <result column="comments_count" jdbcType="INTEGER" property="commentsCount" />
+    <result column="reposts_count" jdbcType="INTEGER" property="repostsCount" />
+    <result column="user_id" jdbcType="VARCHAR" property="userId" />
+  </resultMap>
+  <sql id="Example_Where_Clause">
+    <where>
+      <foreach collection="oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Update_By_Example_Where_Clause">
+    <where>
+      <foreach collection="example.oredCriteria" item="criteria" separator="or">
+        <if test="criteria.valid">
+          <trim prefix="(" prefixOverrides="and" suffix=")">
+            <foreach collection="criteria.criteria" item="criterion">
+              <choose>
+                <when test="criterion.noValue">
+                  and ${criterion.condition}
+                </when>
+                <when test="criterion.singleValue">
+                  and ${criterion.condition} #{criterion.value}
+                </when>
+                <when test="criterion.betweenValue">
+                  and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                </when>
+                <when test="criterion.listValue">
+                  and ${criterion.condition}
+                  <foreach close=")" collection="criterion.value" item="listItem" open="(" separator=",">
+                    #{listItem}
+                  </foreach>
+                </when>
+              </choose>
+            </foreach>
+          </trim>
+        </if>
+      </foreach>
+    </where>
+  </sql>
+  <sql id="Base_Column_List">
+    id, text, pic_ids, geo, visible, attitudes_count, comments_count, reposts_count, 
+    user_id
+  </sql>
+  <select id="selectByExample" parameterType="net.health.model.WeiboCriteria" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <select id="selectByPrimaryKey" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from crawl_weibo
+    where id = #{id,jdbcType=VARCHAR}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
+    delete from crawl_weibo
+    where id = #{id,jdbcType=VARCHAR}
+  </delete>
+  <delete id="deleteByExample" parameterType="net.health.model.WeiboCriteria">
+    delete from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </delete>
+  <insert id="insert" parameterType="net.health.model.Weibo">
+    insert into crawl_weibo (id, text, pic_ids, 
+      geo, visible, attitudes_count, 
+      comments_count, reposts_count, user_id
+      )
+    values (#{id,jdbcType=VARCHAR}, #{text,jdbcType=VARCHAR}, #{picIds,jdbcType=VARCHAR}, 
+      #{geo,jdbcType=VARCHAR}, #{visible,jdbcType=INTEGER}, #{attitudesCount,jdbcType=INTEGER}, 
+      #{commentsCount,jdbcType=INTEGER}, #{repostsCount,jdbcType=INTEGER}, #{userId,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="net.health.model.Weibo">
+    insert into crawl_weibo
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="text != null">
+        text,
+      </if>
+      <if test="picIds != null">
+        pic_ids,
+      </if>
+      <if test="geo != null">
+        geo,
+      </if>
+      <if test="visible != null">
+        visible,
+      </if>
+      <if test="attitudesCount != null">
+        attitudes_count,
+      </if>
+      <if test="commentsCount != null">
+        comments_count,
+      </if>
+      <if test="repostsCount != null">
+        reposts_count,
+      </if>
+      <if test="userId != null">
+        user_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=VARCHAR},
+      </if>
+      <if test="text != null">
+        #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="picIds != null">
+        #{picIds,jdbcType=VARCHAR},
+      </if>
+      <if test="geo != null">
+        #{geo,jdbcType=VARCHAR},
+      </if>
+      <if test="visible != null">
+        #{visible,jdbcType=INTEGER},
+      </if>
+      <if test="attitudesCount != null">
+        #{attitudesCount,jdbcType=INTEGER},
+      </if>
+      <if test="commentsCount != null">
+        #{commentsCount,jdbcType=INTEGER},
+      </if>
+      <if test="repostsCount != null">
+        #{repostsCount,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        #{userId,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <select id="countByExample" parameterType="net.health.model.WeiboCriteria" resultType="java.lang.Integer">
+    select count(*) from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+  </select>
+  <update id="updateByExampleSelective" parameterType="map">
+    update crawl_weibo
+    <set>
+      <if test="record.id != null">
+        id = #{record.id,jdbcType=VARCHAR},
+      </if>
+      <if test="record.text != null">
+        text = #{record.text,jdbcType=VARCHAR},
+      </if>
+      <if test="record.picIds != null">
+        pic_ids = #{record.picIds,jdbcType=VARCHAR},
+      </if>
+      <if test="record.geo != null">
+        geo = #{record.geo,jdbcType=VARCHAR},
+      </if>
+      <if test="record.visible != null">
+        visible = #{record.visible,jdbcType=INTEGER},
+      </if>
+      <if test="record.attitudesCount != null">
+        attitudes_count = #{record.attitudesCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.commentsCount != null">
+        comments_count = #{record.commentsCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.repostsCount != null">
+        reposts_count = #{record.repostsCount,jdbcType=INTEGER},
+      </if>
+      <if test="record.userId != null">
+        user_id = #{record.userId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByExample" parameterType="map">
+    update crawl_weibo
+    set id = #{record.id,jdbcType=VARCHAR},
+      text = #{record.text,jdbcType=VARCHAR},
+      pic_ids = #{record.picIds,jdbcType=VARCHAR},
+      geo = #{record.geo,jdbcType=VARCHAR},
+      visible = #{record.visible,jdbcType=INTEGER},
+      attitudes_count = #{record.attitudesCount,jdbcType=INTEGER},
+      comments_count = #{record.commentsCount,jdbcType=INTEGER},
+      reposts_count = #{record.repostsCount,jdbcType=INTEGER},
+      user_id = #{record.userId,jdbcType=VARCHAR}
+    <if test="_parameter != null">
+      <include refid="Update_By_Example_Where_Clause" />
+    </if>
+  </update>
+  <update id="updateByPrimaryKeySelective" parameterType="net.health.model.Weibo">
+    update crawl_weibo
+    <set>
+      <if test="text != null">
+        text = #{text,jdbcType=VARCHAR},
+      </if>
+      <if test="picIds != null">
+        pic_ids = #{picIds,jdbcType=VARCHAR},
+      </if>
+      <if test="geo != null">
+        geo = #{geo,jdbcType=VARCHAR},
+      </if>
+      <if test="visible != null">
+        visible = #{visible,jdbcType=INTEGER},
+      </if>
+      <if test="attitudesCount != null">
+        attitudes_count = #{attitudesCount,jdbcType=INTEGER},
+      </if>
+      <if test="commentsCount != null">
+        comments_count = #{commentsCount,jdbcType=INTEGER},
+      </if>
+      <if test="repostsCount != null">
+        reposts_count = #{repostsCount,jdbcType=INTEGER},
+      </if>
+      <if test="userId != null">
+        user_id = #{userId,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="net.health.model.Weibo">
+    update crawl_weibo
+    set text = #{text,jdbcType=VARCHAR},
+      pic_ids = #{picIds,jdbcType=VARCHAR},
+      geo = #{geo,jdbcType=VARCHAR},
+      visible = #{visible,jdbcType=INTEGER},
+      attitudes_count = #{attitudesCount,jdbcType=INTEGER},
+      comments_count = #{commentsCount,jdbcType=INTEGER},
+      reposts_count = #{repostsCount,jdbcType=INTEGER},
+      user_id = #{userId,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=VARCHAR}
+  </update>
+  <select id="selectByExampleWithRowbounds" parameterType="net.health.model.WeiboCriteria" resultMap="BaseResultMap">
+    select
+    <if test="distinct">
+      distinct
+    </if>
+    <include refid="Base_Column_List" />
+    from crawl_weibo
+    <if test="_parameter != null">
+      <include refid="Example_Where_Clause" />
+    </if>
+    <if test="orderByClause != null">
+      order by ${orderByClause}
+    </if>
+  </select>
+  <insert id="insertBatch">
+    insert into crawl_weibo (id, text, pic_ids, geo, visible, attitudes_count, comments_count, reposts_count, user_id) values 
+    <foreach collection="list" index="index" item="item" separator=",">
+      (#{item.id,jdbcType=VARCHAR}, #{item.text,jdbcType=VARCHAR}, #{item.picIds,jdbcType=VARCHAR}, 
+        #{item.geo,jdbcType=VARCHAR}, #{item.visible,jdbcType=INTEGER}, #{item.attitudesCount,jdbcType=INTEGER}, 
+        #{item.commentsCount,jdbcType=INTEGER}, #{item.repostsCount,jdbcType=INTEGER}, 
+        #{item.userId,jdbcType=VARCHAR})
+    </foreach>
+  </insert>
+</mapper>

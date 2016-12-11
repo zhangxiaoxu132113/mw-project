@@ -3,8 +3,7 @@ package com.water.crawl.core;
 import com.squareup.okhttp.OkHttpClient;
 import com.squareup.okhttp.Request;
 import com.squareup.okhttp.Response;
-import com.water.crawl.model.Header;
-import com.water.crawl.utils.Constants;
+import com.water.crawl.model.Headers;
 import org.apache.commons.lang3.StringUtils;
 
 import java.io.IOException;
@@ -64,14 +63,14 @@ public class HttpCrawlClient {
         }
     }
 
-    public HttpCrawlResponse executeGetRequest(String url, List<Header> heads) throws IOException {
+    public HttpCrawlResponse executeGetRequest(String url, List<Headers.Header> headers) throws IOException {
         if (StringUtils.isBlank(url)) {
             throw new RuntimeException("url请求地址格式不正确！");
         }
         Request.Builder builder = new Request.Builder();
         builder.url(url);
-        if (heads != null && heads.size() > 0) {
-            for (Header header : heads) {
+        if (headers != null && headers.size() > 0) {
+            for (Headers.Header header : headers) {
                 builder.addHeader(header.getName(), header.getValue());
             }
         }
@@ -84,7 +83,7 @@ public class HttpCrawlClient {
         return this.executeGetRequest(url, null);
     }
 
-    public void executePostRequest(String url, List<Header> head) {
+    public void executePostRequest(String url, List<Headers.Header> header) {
 
     }
 }
