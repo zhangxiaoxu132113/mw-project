@@ -32,5 +32,6 @@
     <import resource="classpath:orm/spring-mybatis.xml"/>
     <import resource="classpath:spring/spring-beans-dao.xml"/>
     <import resource="classpath:spring/spring-quartz.xml"/>
+    <import resource="classpath:spring/spring-redis.xml"/>
 
 </beans>
